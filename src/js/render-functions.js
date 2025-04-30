@@ -62,3 +62,15 @@ export function showLoader(){
 export function hideLoader(){
   loader.classList.remove('loader')
 }
+
+const loadBtn=document.querySelector('.load');
+export function showLoadMoreButton(){
+  console.log('loader')
+  // loadBtn.classList.add('load-more')
+}
+
+export function hideLoadMoreButton(){
+  // loadBtn.classList.remove('load-more')
+  // loadBtn.remove
+  console.log('btton')
+}
